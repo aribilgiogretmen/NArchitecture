@@ -66,7 +66,7 @@ namespace NArchitecture.API.Controllers
         public ActionResult <IEnumerable<Product>>Search(string name)
         {
              
-            return Ok(_productservice.SearchByProductName(name));
+            return Ok(_productservice.SearchByProductName(name)) ;
 
         }
     }
